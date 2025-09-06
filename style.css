@@ -164,7 +164,7 @@ textarea {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:640px) {
     * {
         overflow: visible;
     }
@@ -193,9 +193,15 @@ textarea {
 
     .form-contact {
         flex-direction: column;
+        margin-left: 0;
     }
 
     .mycontact {
+        margin-left: 0;
+    }
+
+    .mycontact input {
+        width: 70%;
         margin-left: 0;
     }
 
